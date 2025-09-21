@@ -1,4 +1,3 @@
-
 # MiBlog
 
 ## Framework CSS elegido
@@ -68,6 +67,29 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## PWA y funcionamiento offline
+
+La página principal (Home) funciona sin conexión gracias al Service Worker de Angular. Se precargan los archivos HTML, CSS, JS y los íconos clave del template para garantizar la experiencia offline.
+
+### ¿Cómo probar el modo offline?
+
+1. Ejecuta un build de producción:
+   ```sh
+   ng build --configuration production
+   ```
+2. Sirve la carpeta de build (por ejemplo, con http-server):
+   ```sh
+   npx http-server ./dist/mi-blog/browser
+   ```
+3. Abre la app en Chrome y abre las DevTools (F12).
+4. Ve a la pestaña "Network" y marca la casilla "Offline".
+5. Recarga la página principal (`/`).
+6. Verás la Home funcionando offline, incluyendo los íconos y estilos clave.
+
+Si navegas a rutas no cacheadas, verás la página 404 personalizada con mensaje de modo offline.
+
+---
 
 ## Additional Resources
 
