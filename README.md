@@ -5,6 +5,16 @@
 
 Este proyecto utiliza **Bootstrap** como framework CSS principal. Todas las interfaces y estilos base están construidos usando Bootstrap.
 
+## Template utilizado
+
+Se utiliza el template gratuito "Blog" de Bootstrap:
+
+- Fuente: https://getbootstrap.com/docs/5.3/examples/blog/
+- Autor: Mark Otto (@mdo)
+- Licencia: MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+El template ha sido adaptado para funcionar con Angular.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
 
 ## Development server
