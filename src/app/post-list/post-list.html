@@ -1,7 +1,22 @@
+<div class="container py-5">
+
+	<div class="p-5 mb-5 rounded-4 text-white" style="background: linear-gradient(90deg, #007bff 60%, #6f42c1 100%); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);">
+		<div class="row align-items-center">
+			<div class="col-lg-8">
+				<h1 class="display-3 fw-bold mb-3">¡Bienvenido a Mi Blog!</h1>
+				<p class="lead mb-4">Explora artículos, tutoriales y novedades sobre desarrollo web, Angular y Bootstrap. ¡Disfruta el contenido y comparte tus ideas!</p>
+				<a href="#" class="btn btn-light btn-lg px-4 fw-bold shadow-sm">Comenzar a leer</a>
+			</div>
+			<div class="col-lg-4 d-none d-lg-block text-end">
+				<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" class="rounded-4 shadow-lg" style="max-width: 260px; max-height: 220px; object-fit: cover;" alt="Hero blog" />
+			</div>
+		</div>
+	</div>
+
 	<h2 class="mb-4 mt-5 fw-bold text-primary">Posts recientes</h2>
 	<div class="row mb-5">
 		<div class="col-md-4 mb-4 d-flex align-items-stretch" *ngFor="let post of [
-			{img: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80', title: 'Novedades en Angular 17', date: 'Sep 18', author: 'Marcos Dev', avatar: 'https://randomuser.me/api/portraits/men/45.jpg', summary: 'Angular 17 trae nuevas características y mejoras de rendimiento. Descubre lo más relevante.'},
+			{img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80', title: 'Novedades en Angular 17', date: 'Sep 18', author: 'Marcos Dev', avatar: 'https://randomuser.me/api/portraits/men/45.jpg', summary: 'Angular 17 trae nuevas características y mejoras de rendimiento. Descubre lo más relevante.'},
 			{img: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80', title: 'Cómo usar RxJS en tus proyectos', date: 'Sep 16', author: 'Laura Rx', avatar: 'https://randomuser.me/api/portraits/women/47.jpg', summary: 'Aprende a manejar flujos de datos y eventos de forma reactiva con RxJS.'},
 			{img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80', title: 'Guía de estilos con Bootstrap', date: 'Sep 15', author: 'Pedro Styles', avatar: 'https://randomuser.me/api/portraits/men/48.jpg', summary: 'Consejos para personalizar y aprovechar Bootstrap al máximo en tus proyectos.'}
 		]">
@@ -21,47 +36,6 @@
 						<a href="#" class="btn btn-link p-0">Leer más</a>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-
-
-<div class="container py-5">
-		<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm rounded-4 mb-5 px-3 px-md-5">
-			<div class="container-fluid">
-				<a class="navbar-brand fw-bold text-primary" href="#">MiBlog</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarMain">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contacto</a>
-						</li>
-					</ul>
-					<form class="d-flex" role="search">
-						<input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
-						<button class="btn btn-outline-primary" type="submit">Buscar</button>
-					</form>
-				</div>
-			</div>
-		</nav>
-
-	<div class="p-5 mb-5 rounded-4 text-white" style="background: linear-gradient(90deg, #007bff 60%, #6f42c1 100%); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);">
-		<div class="row align-items-center">
-			<div class="col-lg-8">
-				<h1 class="display-3 fw-bold mb-3">¡Bienvenido a Mi Blog!</h1>
-				<p class="lead mb-4">Explora artículos, tutoriales y novedades sobre desarrollo web, Angular y Bootstrap. ¡Disfruta el contenido y comparte tus ideas!</p>
-				<a href="#" class="btn btn-light btn-lg px-4 fw-bold shadow-sm">Comenzar a leer</a>
-			</div>
-			<div class="col-lg-4 d-none d-lg-block text-end">
-				<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" class="rounded-4 shadow-lg" style="max-width: 260px; max-height: 220px; object-fit: cover;" alt="Hero blog" />
 			</div>
 		</div>
 	</div>
